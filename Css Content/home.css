@@ -1,0 +1,194 @@
+
+/* This is how I styled the body part */
+body{
+    background-image: url('../Images/vintage-old-rustic-cutlery-dark.jpg');
+    background-size:cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(5px);
+}
+/* ********************************* */
+
+/* This is how I styled form part */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mealHeading{
+    color:whitesmoke !important;
+    font-size: medium;
+    text-align: center;
+}
+
+.inputMeal{
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important; 
+    width: 500px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: -75%;
+    text-align: center;
+    font-size: larger;
+    background-color: gainsboro;
+    opacity: 85%;
+
+}
+
+.inputMeal:hover{
+    background-color: ghostwhite;
+}
+
+.inputMeal:focus{
+    box-shadow: none !important;
+}
+
+.submitMeal{
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: 0 !important;
+    margin-left: -391px;
+    margin-top: 100px;
+    width: 100px;
+    height: 100px;
+    opacity: 85%;
+
+}
+
+/* ********************************************** */
+
+/* This is how I styled additional image */
+
+.imageForLooks{
+    width: 500px;
+    height: 500px;
+    margin-left: 11%;
+}
+
+/* *********************************** */
+
+/* This is how I styled output image and its buttons */
+.mealImage{
+    width: 40%;
+    height: 40%;
+    margin-top: -50%;
+    margin-left: 55%;
+}
+
+.addToFavorites{
+    margin-left: 55%;
+}
+
+.detailBtn{
+    margin-top: 10px;
+}
+
+/* **************************************** */
+
+/* These are some media queries */
+
+@media (max-width : 1268px) {
+    
+    .inputMeal{
+        width: 400px;
+        height: 70px;
+        font-size: large;
+    }
+    .submitMeal{
+        width: 70px;
+        height: 70px;
+        margin-left: -316px;
+    }
+    .imageForLooks{
+        width: 500px;
+        height: 500px;
+        margin-left: 7%;
+    }
+
+}
+
+@media (max-width : 1268px) {
+
+    .imageForLooks{
+        width: 500px;
+        height: 500px;
+        margin-left: 0%;
+    }
+
+}
+
+@media (max-width : 1000px) {
+    
+    .inputMeal{
+        width: 400px;
+        height: 70px;
+        font-size: large;
+        margin-left: -15%;
+    }
+    .submitMeal{
+        width: 70px;
+        height: 70px;
+        margin-left: -77px;
+    }
+    .imageForLooks{
+        width: 300px;
+        height: 300px;
+        margin-left: 30%;
+    }
+    .mealImage{
+        width: 60%;
+        height: 60%;
+        margin-top: 5%;
+        margin-left: -40px;
+    }    
+    .addToFavorites{
+        margin-left: -40px;
+    }
+}
+
+@media (max-width: 750px) {
+    .inputMeal{
+        width: 400px;
+        height: 70px;
+        font-size: large;
+        margin-left: -7%;
+    }
+    .submitMeal{
+        width: 70px;
+        height: 70px;
+        margin-left: -45px;
+    }
+    .imageForLooks{
+        width: 300px;
+        height: 300px;
+        margin-left: 20%;
+    }
+    .mealImage{
+        width: 60%;
+        height: 60%;
+        margin-top: 5%;
+        margin-left: -40px;
+    } 
+}
+
+@media (max-width: 575px) {
+    .inputMeal{
+      margin-top: 200px;
+      height: 50px;
+      width: 250px;
+      font-size: small;
+    }
+    .submitMeal{
+      margin-top: 200px;
+      margin-left: -33px;
+      height: 50px;
+      width: 50px;
+    }
+    .imageForLooks{
+        width: 300px;
+        height: 300px;
+        margin-left: 12%;
+    }
+}
+/* ********************************************* */
+
