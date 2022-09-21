@@ -24,7 +24,7 @@ localStorage.setItem('favMealList',JSON.stringify(favMeal));
 function Details(items){
 
     sessionStorage.setItem('detailedMealList', JSON.stringify(items))
-    window.open('../Html Content/mealDetail.html')
+    window.open('mealDetail.html')
 
 }
 
