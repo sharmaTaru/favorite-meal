@@ -1,7 +1,7 @@
 
 /* This is how I styled the body part */
 body{
-    background-image: url('../Images/vintage-old-rustic-cutlery-dark.jpg');
+    background-image: url('vintage-old-rustic-cutlery-dark.jpg');
     background-size:cover;
     background-attachment: fixed;
     backdrop-filter: blur(5px);
